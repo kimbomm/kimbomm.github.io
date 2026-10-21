@@ -1,0 +1,51 @@
+.jobs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.job {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 4px 24px;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+}
+
+.job:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.when {
+  font-family: var(--mono);
+  font-size: 13.5px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  padding-top: 3px;
+}
+
+.job h3 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.job p {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.stack {
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.stack b {
+  color: var(--fg);
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .job {
+    grid-template-columns: 1fr;
+  }
+}

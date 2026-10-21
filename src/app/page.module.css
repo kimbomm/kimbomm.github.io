@@ -1,0 +1,14 @@
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-block: 56px 80px;
+  display: grid;
+  gap: 80px;
+}
+
+@media (max-width: 640px) {
+  .wrap {
+    padding-block: 32px 56px;
+    gap: 60px;
+  }
+}

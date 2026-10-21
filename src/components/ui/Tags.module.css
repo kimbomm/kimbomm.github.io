@@ -1,0 +1,16 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tags li {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  background: var(--tag);
+  border-radius: 6px;
+  padding: 3px 9px;
+}
