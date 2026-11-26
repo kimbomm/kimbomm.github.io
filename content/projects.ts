@@ -33,7 +33,8 @@ export const workProjects: ProjectGroup[] = [
       {
         "title": [
           {
-            "text": "골든디스크 어워즈"
+            "text": "골든디스크 어워즈",
+            "href": "https://www.goldendisc.co.kr/ko"
           }
         ],
         "year": "2023 – 2025",
@@ -65,7 +66,8 @@ export const workProjects: ProjectGroup[] = [
       {
         "title": [
           {
-            "text": "백상예술대상"
+            "text": "백상예술대상",
+            "href": "https://www.baeksangawards.co.kr/ko/"
           }
         ],
         "year": "2024",
@@ -144,7 +146,7 @@ export const soloProjects: ProjectGroup[] = [
         "title": [
           {
             "text": "Vibe — 공유 가계부 웹앱",
-            "href": "https://github.com/kimbomm/vibe_expenses"
+            "href": "https://kookbomm-expenses.web.app"
           }
         ],
         "year": "2025 – 현재",
